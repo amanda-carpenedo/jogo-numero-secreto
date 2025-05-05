@@ -59,7 +59,7 @@ function reiniciarJogo() {
     numeroSecreto = Math.floor(Math.random() * 10) + 1;
     tentativas = 0;
     numerosSorteados = [];
-    balaoDeFala.innerText = 'Olá! Neste jogo você deve adivinhar qual é o número secreto. Digite seu palpite no espaço ao lado e boa sorte!';
+    balaoDeFala.innerText = 'Olá! Neste jogo você deve adivinhar qual é o número secreto entre 1 e 10. Digite seu palpite no espaço ao lado e boa sorte!';
     paragrafoUm.innerText = '';
     botao.innerText = 'Conferir';
     input.value = '';
