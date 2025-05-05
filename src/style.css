@@ -25,7 +25,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin-top:80px;
+    margin-top: 30px;
 }
 
 
@@ -84,28 +84,21 @@ input::-webkit-inner-spin-button {
 }
 
 .personagem {
-    position: relative;
-    display: block;
-    width: auto;
-    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    max-width: 400px;
+    align-items: center;
 }
 
 .balao {
-    position: absolute;
-    top: -130px;
-    left: 50%;
-    transform: translateX(-50%);
+    position: relative;
     background: #fff;
     border: 2px solid #333;
     padding: 8px 12px;
     border-radius: 12px;
-    width: auto;
     font-size: 14px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
     font-family: "Open Sans", sans-serif;
-    display: inline-block;
-    white-space: normal;
-    word-wrap: break-word;
     text-align: center;
 
 }
@@ -143,8 +136,13 @@ input::-webkit-inner-spin-button {
     font-family: "Open Sans", sans-serif;
 }
 
+.box-paragrafo p {
+    margin-bottom: 5px;
+}
 
-#numero, #numeros-usados {
+
+#numero,
+#numeros-usados {
     font-size: 30px;
     font-weight: 700;
     background-color: #fff;
@@ -155,7 +153,7 @@ input::-webkit-inner-spin-button {
 }
 
 
-.container-paragrafo{
+.container-paragrafo {
     display: flex;
     align-items: start;
     margin-top: 10px;
